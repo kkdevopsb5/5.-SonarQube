@@ -71,14 +71,6 @@ step 5: Open the project to see complete report.
 
 
 
-
-
-
-
-
-
-
-
 ====================================================================================================
 
 Requirement: Instead of user_name and password hard coded in pom.xml , How to use the SQ server token.
@@ -109,27 +101,6 @@ step 3: Generate again:  mvn clean sonar:sonar
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 How to change the sonarQuber server port number?
 ------------------------------------------------
 --> Default port number is : 9000
@@ -148,22 +119,7 @@ step 4: sh sonar.sh restart
 
 
 
-====================================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+===================================================================================================
 
 
 Projects
@@ -224,19 +180,6 @@ step 2:
 Go to project --> select project --> project settings --> quality gate --> java change profile --> Always use specific quality gate --> save 
 
 step 3: go and run the sonarqube report [mvn sonar:sonar]
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
